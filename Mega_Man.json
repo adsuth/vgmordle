@@ -1,0 +1,1458 @@
+{
+    "Mega Man": [{
+        "id": 0,
+        "name": "Select Screen",
+        "game": "Mega Man",
+        "series": "Mega Man",
+        "url": "8nHAde9X_D4"
+    }, {
+        "id": 1,
+        "name": "Bomb Man Stage",
+        "game": "Mega Man",
+        "series": "Mega Man",
+        "url": "avjuNvutxsw"
+    }, {
+        "id": 2,
+        "name": "Cut Man Stage",
+        "game": "Mega Man",
+        "series": "Mega Man",
+        "url": "GsXEqfDL40k"
+    }, {
+        "id": 3,
+        "name": "Elec Man Stage",
+        "game": "Mega Man",
+        "series": "Mega Man",
+        "url": "CJdFxTOysjo"
+    }, {
+        "id": 4,
+        "name": "Fire Man Stage",
+        "game": "Mega Man",
+        "series": "Mega Man",
+        "url": "CTIdRD5qrag"
+    }, {
+        "id": 5,
+        "name": "Guts Man Stage",
+        "game": "Mega Man",
+        "series": "Mega Man",
+        "url": "m2jq2YCxAuE"
+    }, {
+        "id": 6,
+        "name": "Ice Man Stage",
+        "game": "Mega Man",
+        "series": "Mega Man",
+        "url": "CUZlDht8iro"
+    }, {
+        "id": 7,
+        "name": "Wily Fortress 1",
+        "game": "Mega Man",
+        "series": "Mega Man",
+        "url": "gg97ZlbUJXY"
+    }, {
+        "id": 8,
+        "name": "Boss Battle",
+        "game": "Mega Man",
+        "series": "Mega Man",
+        "url": "5WduvI0CZ4c"
+    }, {
+        "id": 9,
+        "name": "Wily Fortress 2",
+        "game": "Mega Man",
+        "series": "Mega Man",
+        "url": "7CNIrDQC9q0"
+    }, {
+        "id": 10,
+        "name": "Wily Battle",
+        "game": "Mega Man",
+        "series": "Mega Man",
+        "url": "ojWBRzs8-ts"
+    }, {
+        "id": 11,
+        "name": "Ending Theme",
+        "game": "Mega Man",
+        "series": "Mega Man",
+        "url": "9LmdO3TCzpM"
+    }],
+    "Mega Man 2": [{
+        "id": 12,
+        "name": "Title Part 1",
+        "game": "Mega Man 2",
+        "series": "Mega Man",
+        "url": "CL02gX8hSTk"
+    }, {
+        "id": 13,
+        "name": "Title Part 2",
+        "game": "Mega Man 2",
+        "series": "Mega Man",
+        "url": "vFdby6ljawk"
+    }, {
+        "id": 14,
+        "name": "Menu Screen",
+        "game": "Mega Man 2",
+        "series": "Mega Man",
+        "url": "K_1IgParl80"
+    }, {
+        "id": 15,
+        "name": "Select Screen",
+        "game": "Mega Man 2",
+        "series": "Mega Man",
+        "url": "SZUI_QQjxRc"
+    }, {
+        "id": 16,
+        "name": "Bubble Man Stage",
+        "game": "Mega Man 2",
+        "series": "Mega Man",
+        "url": "FEULEvmq7yE"
+    }, {
+        "id": 17,
+        "name": "Crash Man Stage",
+        "game": "Mega Man 2",
+        "series": "Mega Man",
+        "url": "7oO7QC32Wfs"
+    }, {
+        "id": 18,
+        "name": "Flash Man Stage",
+        "game": "Mega Man 2",
+        "series": "Mega Man",
+        "url": "26MopY4DTZU"
+    }, {
+        "id": 19,
+        "name": "Heat Man Stage",
+        "game": "Mega Man 2",
+        "series": "Mega Man",
+        "url": "2OJphbcA9SY"
+    }, {
+        "id": 20,
+        "name": "Metal Man Stage",
+        "game": "Mega Man 2",
+        "series": "Mega Man",
+        "url": "uQXA9RkC_-c"
+    }, {
+        "id": 21,
+        "name": "Wood Man Stage",
+        "game": "Mega Man 2",
+        "series": "Mega Man",
+        "url": "WvAAOmoEftg"
+    }, {
+        "id": 22,
+        "name": "Quick Man Stage",
+        "game": "Mega Man 2",
+        "series": "Mega Man",
+        "url": "FRa4LHSJf_M"
+    }, {
+        "id": 23,
+        "name": "Air Man Stage",
+        "game": "Mega Man 2",
+        "series": "Mega Man",
+        "url": "IhK4D3ytYMc"
+    }, {
+        "id": 24,
+        "name": "Wily Fortress 1",
+        "game": "Mega Man 2",
+        "series": "Mega Man",
+        "url": "aTbfpkByIM8"
+    }, {
+        "id": 25,
+        "name": "Wily Fortress 2",
+        "game": "Mega Man 2",
+        "series": "Mega Man",
+        "url": "tgY2Sf5vitQ"
+    }, {
+        "id": 26,
+        "name": "Boss Battle",
+        "game": "Mega Man 2",
+        "series": "Mega Man",
+        "url": "GPVDroHSUic"
+    }, {
+        "id": 27,
+        "name": "Get New Weapon",
+        "game": "Mega Man 2",
+        "series": "Mega Man",
+        "url": "f3i2amF7dyE"
+    }, {
+        "id": 28,
+        "name": "Ending Part 1",
+        "game": "Mega Man 2",
+        "series": "Mega Man",
+        "url": "KL9Gnx42Xf0"
+    }, {
+        "id": 29,
+        "name": "Ending Part 2",
+        "game": "Mega Man 2",
+        "series": "Mega Man",
+        "url": "OR-6qdnxeik"
+    }, {
+        "id": 30,
+        "name": "Ending Part 3",
+        "game": "Mega Man 2",
+        "series": "Mega Man",
+        "url": "cUWLuSAIdJ8"
+    }],
+    "Mega Man 3": [{
+        "id": 31,
+        "name": "Title Theme",
+        "game": "Mega Man 3",
+        "series": "Mega Man",
+        "url": "U2kTeh7FNl0"
+    }, {
+        "id": 32,
+        "name": "Select Screen",
+        "game": "Mega Man 3",
+        "series": "Mega Man",
+        "url": "Xix6u4HyGPo"
+    }, {
+        "id": 33,
+        "name": "Gemini Man Stage",
+        "game": "Mega Man 3",
+        "series": "Mega Man",
+        "url": "J2LF3YR2dNM"
+    }, {
+        "id": 34,
+        "name": "Hard Man Stage",
+        "game": "Mega Man 3",
+        "series": "Mega Man",
+        "url": "JzzJwrIN6Mc"
+    }, {
+        "id": 35,
+        "name": "Magnet Man Stage",
+        "game": "Mega Man 3",
+        "series": "Mega Man",
+        "url": "fuKQCXRseU8"
+    }, {
+        "id": 36,
+        "name": "Needle Man Stage",
+        "game": "Mega Man 3",
+        "series": "Mega Man",
+        "url": "wDJbOB1h2EU"
+    }, {
+        "id": 37,
+        "name": "Shadow Man Stage",
+        "game": "Mega Man 3",
+        "series": "Mega Man",
+        "url": "Usl7cw6VnLU"
+    }, {
+        "id": 38,
+        "name": "Snake Man Stage",
+        "game": "Mega Man 3",
+        "series": "Mega Man",
+        "url": "ZqGLXispP08"
+    }, {
+        "id": 39,
+        "name": "Spark Man Stage",
+        "game": "Mega Man 3",
+        "series": "Mega Man",
+        "url": "6J5cN87c2yM"
+    }, {
+        "id": 40,
+        "name": "Top Man Stage",
+        "game": "Mega Man 3",
+        "series": "Mega Man",
+        "url": "4dgtHw-uAxY"
+    }, {
+        "id": 41,
+        "name": "Boss Battle",
+        "game": "Mega Man 3",
+        "series": "Mega Man",
+        "url": "y3t6peqsorE"
+    }, {
+        "id": 42,
+        "name": "Get New Weapon",
+        "game": "Mega Man 3",
+        "series": "Mega Man",
+        "url": "dvi46JYzwdU"
+    }, {
+        "id": 43,
+        "name": "Password Screen",
+        "game": "Mega Man 3",
+        "series": "Mega Man",
+        "url": "l0-1r7zQk9c"
+    }, {
+        "id": 44,
+        "name": "Wily Fortress 1",
+        "game": "Mega Man 3",
+        "series": "Mega Man",
+        "url": "sfOE4rJnYYc"
+    }, {
+        "id": 45,
+        "name": "Wily Fortress 2",
+        "game": "Mega Man 3",
+        "series": "Mega Man",
+        "url": "zC0EWRZE3Dw"
+    }, {
+        "id": 46,
+        "name": "Wily Fortress 3",
+        "game": "Mega Man 3",
+        "series": "Mega Man",
+        "url": "6eZ7CyMYDLM"
+    }, {
+        "id": 47,
+        "name": "Wily Guardian Battle",
+        "game": "Mega Man 3",
+        "series": "Mega Man",
+        "url": "scC_d0Ciu0s"
+    }, {
+        "id": 48,
+        "name": "Proto Man Theme",
+        "game": "Mega Man 3",
+        "series": "Mega Man",
+        "url": "MIDkiPAqhhk"
+    }, {
+        "id": 49,
+        "name": "Ending Theme",
+        "game": "Mega Man 3",
+        "series": "Mega Man",
+        "url": "GSmanKQ8d0s"
+    }],
+    "Mega Man 4": [{
+        "id": 50,
+        "name": "Title Part 1",
+        "game": "Mega Man 4",
+        "series": "Mega Man",
+        "url": "xqzAABtqsA8"
+    }, {
+        "id": 51,
+        "name": "Title Part 2",
+        "game": "Mega Man 4",
+        "series": "Mega Man",
+        "url": "o3D27b-OnFY"
+    }, {
+        "id": 52,
+        "name": "Title Part 3",
+        "game": "Mega Man 4",
+        "series": "Mega Man",
+        "url": "Rwc_vVsixyc"
+    }, {
+        "id": 53,
+        "name": "Bright Man Stage",
+        "game": "Mega Man 4",
+        "series": "Mega Man",
+        "url": "xf4zUAKB08g"
+    }, {
+        "id": 54,
+        "name": "Dive Man Stage",
+        "game": "Mega Man 4",
+        "series": "Mega Man",
+        "url": "6bXE8ldC2DA"
+    }, {
+        "id": 55,
+        "name": "Drill Man Stage",
+        "game": "Mega Man 4",
+        "series": "Mega Man",
+        "url": "Tud96HogGbo"
+    }, {
+        "id": 56,
+        "name": "Dust Man Stage",
+        "game": "Mega Man 4",
+        "series": "Mega Man",
+        "url": "o65s78WI3oI"
+    }, {
+        "id": 57,
+        "name": "Pharaoh Man Stage",
+        "game": "Mega Man 4",
+        "series": "Mega Man",
+        "url": "Ok5I0Yp-7fo"
+    }, {
+        "id": 58,
+        "name": "Ring Man Stage",
+        "game": "Mega Man 4",
+        "series": "Mega Man",
+        "url": "-_cjwXYBdOo"
+    }, {
+        "id": 59,
+        "name": "Skull Man Stage",
+        "game": "Mega Man 4",
+        "series": "Mega Man",
+        "url": "V-z1HLxLJto"
+    }, {
+        "id": 60,
+        "name": "Toad Man Stage",
+        "game": "Mega Man 4",
+        "series": "Mega Man",
+        "url": "xcveCmdLaNI"
+    }, {
+        "id": 61,
+        "name": "Boss Battle",
+        "game": "Mega Man 4",
+        "series": "Mega Man",
+        "url": "QLjz19Vs6ig"
+    }, {
+        "id": 62,
+        "name": "Get New Weapon",
+        "game": "Mega Man 4",
+        "series": "Mega Man",
+        "url": "CXs1t9ptiSw"
+    }, {
+        "id": 63,
+        "name": "Select Screen",
+        "game": "Mega Man 4",
+        "series": "Mega Man",
+        "url": "xp9hbj6rHmY"
+    }, {
+        "id": 64,
+        "name": "Cossack Fortress 1",
+        "game": "Mega Man 4",
+        "series": "Mega Man",
+        "url": "AUCLT7cj4FU"
+    }, {
+        "id": 65,
+        "name": "Cossack Fortress 2",
+        "game": "Mega Man 4",
+        "series": "Mega Man",
+        "url": "S9zoPeH-Ly0"
+    }, {
+        "id": 66,
+        "name": "Password Screen",
+        "game": "Mega Man 4",
+        "series": "Mega Man",
+        "url": "N6Y9jDATtEQ"
+    }, {
+        "id": 67,
+        "name": "Wily Fortress 1",
+        "game": "Mega Man 4",
+        "series": "Mega Man",
+        "url": "vOOst7LsvgI"
+    }, {
+        "id": 68,
+        "name": "Wily Fortress 2",
+        "game": "Mega Man 4",
+        "series": "Mega Man",
+        "url": "g1Txs_rI0bk"
+    }, {
+        "id": 69,
+        "name": "Wily Battle",
+        "game": "Mega Man 4",
+        "series": "Mega Man",
+        "url": "iO2FAI59ZME"
+    }, {
+        "id": 70,
+        "name": "Ending Part 1",
+        "game": "Mega Man 4",
+        "series": "Mega Man",
+        "url": "vG6DQz1FKp4"
+    }, {
+        "id": 71,
+        "name": "Ending Part 2",
+        "game": "Mega Man 4",
+        "series": "Mega Man",
+        "url": "kRRHZ6_gGdU"
+    }],
+    "Mega Man 5": [{
+        "id": 72,
+        "name": "Intro Part 1",
+        "game": "Mega Man 5",
+        "series": "Mega Man",
+        "url": "DvSx7IL7WNs"
+    }, {
+        "id": 73,
+        "name": "Intro Part 2",
+        "game": "Mega Man 5",
+        "series": "Mega Man",
+        "url": "39FN_LsRMzE"
+    }, {
+        "id": 74,
+        "name": "Crystal Man Stage",
+        "game": "Mega Man 5",
+        "series": "Mega Man",
+        "url": "YNMI-Vkrp_Q"
+    }, {
+        "id": 75,
+        "name": "Gravity Man Stage",
+        "game": "Mega Man 5",
+        "series": "Mega Man",
+        "url": "nPiKZ4AZR8A"
+    }, {
+        "id": 76,
+        "name": "Gyro Man Stage",
+        "game": "Mega Man 5",
+        "series": "Mega Man",
+        "url": "FZWDWJNYEhk"
+    }, {
+        "id": 77,
+        "name": "Napalm Man Stage",
+        "game": "Mega Man 5",
+        "series": "Mega Man",
+        "url": "vLI6FzBY_JA"
+    }, {
+        "id": 78,
+        "name": "Star Man Stage",
+        "game": "Mega Man 5",
+        "series": "Mega Man",
+        "url": "zCJss_gW2Qw"
+    }, {
+        "id": 79,
+        "name": "Stone Man Stage",
+        "game": "Mega Man 5",
+        "series": "Mega Man",
+        "url": "9o8VHKE2lpM"
+    }, {
+        "id": 80,
+        "name": "Wave Man Stage",
+        "game": "Mega Man 5",
+        "series": "Mega Man",
+        "url": "ZI0_v340OPM"
+    }, {
+        "id": 81,
+        "name": "Charge Man Stage",
+        "game": "Mega Man 5",
+        "series": "Mega Man",
+        "url": "C75Q7bdQAQA"
+    }, {
+        "id": 82,
+        "name": "Select Screen",
+        "game": "Mega Man 5",
+        "series": "Mega Man",
+        "url": "vgT9E9Dr3rQ"
+    }, {
+        "id": 83,
+        "name": "Boss Battle",
+        "game": "Mega Man 5",
+        "series": "Mega Man",
+        "url": "a9Hxd8Qx3iU"
+    }, {
+        "id": 84,
+        "name": "Get New Weapon",
+        "game": "Mega Man 5",
+        "series": "Mega Man",
+        "url": "Navl6mG8UkA"
+    }, {
+        "id": 85,
+        "name": "Password Screen",
+        "game": "Mega Man 5",
+        "series": "Mega Man",
+        "url": "HFwmNeV0pJc"
+    }, {
+        "id": 86,
+        "name": "Wily Fortress",
+        "game": "Mega Man 5",
+        "series": "Mega Man",
+        "url": "b5YIJ_-WlNM"
+    }, {
+        "id": 87,
+        "name": "Wily Battle",
+        "game": "Mega Man 5",
+        "series": "Mega Man",
+        "url": "BImMZekqGNc"
+    }, {
+        "id": 88,
+        "name": "Wily Chase",
+        "game": "Mega Man 5",
+        "series": "Mega Man",
+        "url": "j8zaWzaIFh0"
+    }, {
+        "id": 89,
+        "name": "Proto Man Fortress",
+        "game": "Mega Man 5",
+        "series": "Mega Man",
+        "url": "6cuDFYZXw0c"
+    }, {
+        "id": 90,
+        "name": "Ending Theme",
+        "game": "Mega Man 5",
+        "series": "Mega Man",
+        "url": "SPXVodHPUpI"
+    }],
+    "Mega Man 6": [{
+        "id": 91,
+        "name": "Intro Part 1",
+        "game": "Mega Man 6",
+        "series": "Mega Man",
+        "url": "mt79IPuU1Rg"
+    }, {
+        "id": 92,
+        "name": "Select Screen",
+        "game": "Mega Man 6",
+        "series": "Mega Man",
+        "url": "ZmXtjwecQQU"
+    }, {
+        "id": 93,
+        "name": "Blizzard Man Stage",
+        "game": "Mega Man 6",
+        "series": "Mega Man",
+        "url": "93q61LT2Vuk"
+    }, {
+        "id": 94,
+        "name": "Centaur Man Stage",
+        "game": "Mega Man 6",
+        "series": "Mega Man",
+        "url": "o0h5kOuxuFM"
+    }, {
+        "id": 95,
+        "name": "Flame Man Stage",
+        "game": "Mega Man 6",
+        "series": "Mega Man",
+        "url": "eKHVUupbqx0"
+    }, {
+        "id": 96,
+        "name": "Knight Man Stage",
+        "game": "Mega Man 6",
+        "series": "Mega Man",
+        "url": "hBZL_Iqheeg"
+    }, {
+        "id": 97,
+        "name": "Plant Man Stage",
+        "game": "Mega Man 6",
+        "series": "Mega Man",
+        "url": "WN_7Wy0RT00"
+    }, {
+        "id": 98,
+        "name": "Tomahawk Man Stage",
+        "game": "Mega Man 6",
+        "series": "Mega Man",
+        "url": "Hz-3Xd43OGo"
+    }, {
+        "id": 99,
+        "name": "Boss Battle",
+        "game": "Mega Man 6",
+        "series": "Mega Man",
+        "url": "lUESH4vWIos"
+    }, {
+        "id": 100,
+        "name": "Get New Weapon",
+        "game": "Mega Man 6",
+        "series": "Mega Man",
+        "url": "zwvNtlfNZ3U"
+    }, {
+        "id": 101,
+        "name": "Password Screen",
+        "game": "Mega Man 6",
+        "series": "Mega Man",
+        "url": "zLJL7YiDWhI"
+    }, {
+        "id": 102,
+        "name": "Wind Man Stage",
+        "game": "Mega Man 6",
+        "series": "Mega Man",
+        "url": "7u-LyAzviN4"
+    }, {
+        "id": 103,
+        "name": "Yamato Man Stage",
+        "game": "Mega Man 6",
+        "series": "Mega Man",
+        "url": "n6ST9g8VAT8"
+    }, {
+        "id": 104,
+        "name": "Mr X Fortress",
+        "game": "Mega Man 6",
+        "series": "Mega Man",
+        "url": "yERlXLbNq70"
+    }, {
+        "id": 105,
+        "name": "Flame Man Ending",
+        "game": "Mega Man 6",
+        "series": "Mega Man",
+        "url": "5fpr1S3bzRU"
+    }, {
+        "id": 106,
+        "name": "Wily Fortress",
+        "game": "Mega Man 6",
+        "series": "Mega Man",
+        "url": "gsQ8dpS-RJY"
+    }, {
+        "id": 107,
+        "name": "Knight Man Ending",
+        "game": "Mega Man 6",
+        "series": "Mega Man",
+        "url": "cai0DuR_RXk"
+    }, {
+        "id": 108,
+        "name": "Wily Battle",
+        "game": "Mega Man 6",
+        "series": "Mega Man",
+        "url": "IgDFobO20YQ"
+    }, {
+        "id": 109,
+        "name": "Plant Man Ending",
+        "game": "Mega Man 6",
+        "series": "Mega Man",
+        "url": "ndgxSU7F4Ak"
+    }, {
+        "id": 110,
+        "name": "Ending Part 2",
+        "game": "Mega Man 6",
+        "series": "Mega Man",
+        "url": "EdJ0fjEPDuU"
+    }, {
+        "id": 111,
+        "name": "Tomahawk Man Ending",
+        "game": "Mega Man 6",
+        "series": "Mega Man",
+        "url": "saUW22-rUik"
+    }, {
+        "id": 112,
+        "name": "Blizzard Man Ending",
+        "game": "Mega Man 6",
+        "series": "Mega Man",
+        "url": "9YlnQxfW3Z0"
+    }, {
+        "id": 113,
+        "name": "Wind Man Ending",
+        "game": "Mega Man 6",
+        "series": "Mega Man",
+        "url": "y8nK44zmoGo"
+    }, {
+        "id": 114,
+        "name": "Yamato Man Ending",
+        "game": "Mega Man 6",
+        "series": "Mega Man",
+        "url": "oj62lMZZqLY"
+    }, {
+        "id": 115,
+        "name": "Centaur Man Ending",
+        "game": "Mega Man 6",
+        "series": "Mega Man",
+        "url": "pbzQpsj4RmQ"
+    }],
+    "Mega Man 7": [{
+        "id": 116,
+        "name": "Prologue (6 Months Later)",
+        "game": "Mega Man 7",
+        "series": "Mega Man",
+        "url": "CQJTX7tyl2Y"
+    }, {
+        "id": 117,
+        "name": "Prologue (Searching For The Master)",
+        "game": "Mega Man 7",
+        "series": "Mega Man",
+        "url": "IBU1aIpKeZU"
+    }, {
+        "id": 118,
+        "name": "Title (A Fated Confrontation!)",
+        "game": "Mega Man 7",
+        "series": "Mega Man",
+        "url": "0VTmnvPxwio"
+    }, {
+        "id": 119,
+        "name": "Opening Stage (Ruined Street)",
+        "game": "Mega Man 7",
+        "series": "Mega Man",
+        "url": "OoK9mkQcczo"
+    }, {
+        "id": 120,
+        "name": "Friend or Foe (Theme of Bass)",
+        "game": "Mega Man 7",
+        "series": "Mega Man",
+        "url": "6lmKNQoFGjw"
+    }, {
+        "id": 121,
+        "name": "Password Screen",
+        "game": "Mega Man 7",
+        "series": "Mega Man",
+        "url": "MLw0Ipdw4TM"
+    }, {
+        "id": 122,
+        "name": "Stage Select",
+        "game": "Mega Man 7",
+        "series": "Mega Man",
+        "url": "84Z4z9wCDU8"
+    }, {
+        "id": 123,
+        "name": "Freeze Man Stage (Iceberg Area)",
+        "game": "Mega Man 7",
+        "series": "Mega Man",
+        "url": "qTZOil4BFnk"
+    }, {
+        "id": 124,
+        "name": "Junk Man Stage (Forgotten Factory)",
+        "game": "Mega Man 7",
+        "series": "Mega Man",
+        "url": "ri8MuT4M84s"
+    }, {
+        "id": 125,
+        "name": "Burst Man Stage (Medical Science Lab)",
+        "game": "Mega Man 7",
+        "series": "Mega Man",
+        "url": "WeVVckMnI0E"
+    }, {
+        "id": 126,
+        "name": "Cloud Man Stage (Weather Research)",
+        "game": "Mega Man 7",
+        "series": "Mega Man",
+        "url": "jSdbruDPLQ4"
+    }, {
+        "id": 127,
+        "name": "Dr. Light's Lab",
+        "game": "Mega Man 7",
+        "series": "Mega Man",
+        "url": "uHAtljfS8C4"
+    }, {
+        "id": 128,
+        "name": "The Robot Museum",
+        "game": "Mega Man 7",
+        "series": "Mega Man",
+        "url": "8kJy9r3-y2Q"
+    }, {
+        "id": 129,
+        "name": "Auto's Shop",
+        "game": "Mega Man 7",
+        "series": "Mega Man",
+        "url": "fEqOlIZ2Z3M"
+    }, {
+        "id": 130,
+        "name": "Spring Man Stage (Boyoyon Paradise)",
+        "game": "Mega Man 7",
+        "series": "Mega Man",
+        "url": "3KksczzImr0"
+    }, {
+        "id": 131,
+        "name": "Slash Man Stage (Jurassic Jungle)",
+        "game": "Mega Man 7",
+        "series": "Mega Man",
+        "url": "20lxSw8w_lk"
+    }, {
+        "id": 132,
+        "name": "Shade Man Stage (Horror Fortress)",
+        "game": "Mega Man 7",
+        "series": "Mega Man",
+        "url": "lLhrSSw_4vU"
+    }, {
+        "id": 133,
+        "name": "Turbo Man Stage (Giant Trailers)",
+        "game": "Mega Man 7",
+        "series": "Mega Man",
+        "url": "fE9GuCypaew"
+    }, {
+        "id": 134,
+        "name": "Shade Man Stage (Ghouls 'N Ghosts)",
+        "game": "Mega Man 7",
+        "series": "Mega Man",
+        "url": "HcbjBxeHxbg"
+    }, {
+        "id": 135,
+        "name": "Boss Battle",
+        "game": "Mega Man 7",
+        "series": "Mega Man",
+        "url": "gX5H39sPaio"
+    }, {
+        "id": 136,
+        "name": "Got Weapon",
+        "game": "Mega Man 7",
+        "series": "Mega Man",
+        "url": "Q_5PY0pjoIU"
+    }, {
+        "id": 137,
+        "name": "Bass' Betrayal",
+        "game": "Mega Man 7",
+        "series": "Mega Man",
+        "url": "NOAenn-HRnk"
+    }, {
+        "id": 138,
+        "name": "Wily Stage 1 (Entrance)",
+        "game": "Mega Man 7",
+        "series": "Mega Man",
+        "url": "dI6Zq6QD-rU"
+    }, {
+        "id": 139,
+        "name": "Wily Stage 2 (Turtle's Realm)",
+        "game": "Mega Man 7",
+        "series": "Mega Man",
+        "url": "rkw2wWAvlto"
+    }, {
+        "id": 140,
+        "name": "Wily Stage 3 (Walk the Invisible)",
+        "game": "Mega Man 7",
+        "series": "Mega Man",
+        "url": "wLVz3_8Ekww"
+    }, {
+        "id": 141,
+        "name": "Final Wily Stage (The Hatches)",
+        "game": "Mega Man 7",
+        "series": "Mega Man",
+        "url": "ac90R7jXaoA"
+    }, {
+        "id": 142,
+        "name": "Wily Machine No. 7",
+        "game": "Mega Man 7",
+        "series": "Mega Man",
+        "url": "WA8I0u_MFxo"
+    }, {
+        "id": 143,
+        "name": "Final Wily Battle",
+        "game": "Mega Man 7",
+        "series": "Mega Man",
+        "url": "4hRaTSS23vE"
+    }, {
+        "id": 144,
+        "name": "Ending ~ A Hero Returns",
+        "game": "Mega Man 7",
+        "series": "Mega Man",
+        "url": "OKRcsis3pCA"
+    }],
+    "Mega Man 8": [{
+        "id": 145,
+        "name": "Opening",
+        "game": "Mega Man 8",
+        "series": "Mega Man",
+        "url": "3NstM8QYsGs"
+    }, {
+        "id": 146,
+        "name": "Title Theme",
+        "game": "Mega Man 8",
+        "series": "Mega Man",
+        "url": "Qay2EfxzeCU"
+    }, {
+        "id": 147,
+        "name": "Stage Select",
+        "game": "Mega Man 8",
+        "series": "Mega Man",
+        "url": "ZWikJf6Dcqw"
+    }, {
+        "id": 148,
+        "name": "Dr. Light's Laboratory",
+        "game": "Mega Man 8",
+        "series": "Mega Man",
+        "url": "dq-D7DYyxXg"
+    }, {
+        "id": 149,
+        "name": "Opening Stage (Above Ground)",
+        "game": "Mega Man 8",
+        "series": "Mega Man",
+        "url": "NailLhbS7zg"
+    }, {
+        "id": 150,
+        "name": "Opening Stage (Underground)",
+        "game": "Mega Man 8",
+        "series": "Mega Man",
+        "url": "W7vWaL_wKZc"
+    }, {
+        "id": 151,
+        "name": "Frost Man (Ice Stage)",
+        "game": "Mega Man 8",
+        "series": "Mega Man",
+        "url": "VTIHy84Fwnc"
+    }, {
+        "id": 152,
+        "name": "Clown Man (Amusement Park Stage)",
+        "game": "Mega Man 8",
+        "series": "Mega Man",
+        "url": "Zm-1jdqrWIc"
+    }, {
+        "id": 153,
+        "name": "Tengu Man (Sky Stage)",
+        "game": "Mega Man 8",
+        "series": "Mega Man",
+        "url": "WjtJvw7x5Qw"
+    }, {
+        "id": 154,
+        "name": "Grenade Man (Base Stage)",
+        "game": "Mega Man 8",
+        "series": "Mega Man",
+        "url": "jh9vuzg7uoI"
+    }, {
+        "id": 155,
+        "name": "Theme of Duo",
+        "game": "Mega Man 8",
+        "series": "Mega Man",
+        "url": "i_FDqQK2JwU"
+    }, {
+        "id": 156,
+        "name": "Sword Man (Ruins Stage)",
+        "game": "Mega Man 8",
+        "series": "Mega Man",
+        "url": "bJZ79SSJF8A"
+    }, {
+        "id": 157,
+        "name": "Aqua Man (Underwater Stage)",
+        "game": "Mega Man 8",
+        "series": "Mega Man",
+        "url": "_4lx-VqXVQE"
+    }, {
+        "id": 158,
+        "name": "Astro Man (Alternate Dimension Stage)",
+        "game": "Mega Man 8",
+        "series": "Mega Man",
+        "url": "S2tbfK-2SwU"
+    }, {
+        "id": 159,
+        "name": "Search Man (Forest Stage)",
+        "game": "Mega Man 8",
+        "series": "Mega Man",
+        "url": "v8JcEXF_T44"
+    }, {
+        "id": 160,
+        "name": "Mini-Boss Battle",
+        "game": "Mega Man 8",
+        "series": "Mega Man",
+        "url": "L1225W_REn8"
+    }, {
+        "id": 161,
+        "name": "Boss Battle",
+        "game": "Mega Man 8",
+        "series": "Mega Man",
+        "url": "K8IcXI8Omyw"
+    }, {
+        "id": 162,
+        "name": "Boss Appearance",
+        "game": "Mega Man 8",
+        "series": "Mega Man",
+        "url": "K51TZNbRPgQ"
+    }, {
+        "id": 163,
+        "name": "Get Weapon",
+        "game": "Mega Man 8",
+        "series": "Mega Man",
+        "url": "35_A34LX6xo"
+    }, {
+        "id": 164,
+        "name": "Wily Stage 1",
+        "game": "Mega Man 8",
+        "series": "Mega Man",
+        "url": "TCKz8RK3V_c"
+    }, {
+        "id": 165,
+        "name": "Wily Stage 2",
+        "game": "Mega Man 8",
+        "series": "Mega Man",
+        "url": "E91b_mV_DAo"
+    }, {
+        "id": 166,
+        "name": "Wily Stage 3",
+        "game": "Mega Man 8",
+        "series": "Mega Man",
+        "url": "ILz1dLpPvNo"
+    }, {
+        "id": 167,
+        "name": "Wily Stage 4",
+        "game": "Mega Man 8",
+        "series": "Mega Man",
+        "url": "8K95OYyXgCg"
+    }, {
+        "id": 168,
+        "name": "Bass Battle",
+        "game": "Mega Man 8",
+        "series": "Mega Man",
+        "url": "hDWh2IXUgc4"
+    }, {
+        "id": 169,
+        "name": "Wily Battle",
+        "game": "Mega Man 8",
+        "series": "Mega Man",
+        "url": "weUQwoHFTLs"
+    }, {
+        "id": 170,
+        "name": "Wily Capsule Appears",
+        "game": "Mega Man 8",
+        "series": "Mega Man",
+        "url": "drLTHfiHIeo"
+    }, {
+        "id": 171,
+        "name": "Final Wily Battle",
+        "game": "Mega Man 8",
+        "series": "Mega Man",
+        "url": "LNybsiw8kWE"
+    }, {
+        "id": 172,
+        "name": "Staff Roll",
+        "game": "Mega Man 8",
+        "series": "Mega Man",
+        "url": "tyVj10S7L_Q"
+    }, {
+        "id": 173,
+        "name": "Tengu Man (Saturn Version)",
+        "game": "Mega Man 8",
+        "series": "Mega Man",
+        "url": "elLp6WYcJ1o"
+    }, {
+        "id": 174,
+        "name": "Cut Man Stage",
+        "game": "Mega Man 8",
+        "series": "Mega Man",
+        "url": "riJPSd83y00"
+    }, {
+        "id": 175,
+        "name": "Wood Man Stage",
+        "game": "Mega Man 8",
+        "series": "Mega Man",
+        "url": "JUvEe1ltbfs"
+    }, {
+        "id": 176,
+        "name": "Electrical Communication (Opening Theme) - Rockman 8 [OST]",
+        "game": "Mega Man 8",
+        "series": "Mega Man",
+        "url": "D7oA1wRoUS0"
+    }, {
+        "id": 177,
+        "name": "Brandnew Way (Ending Theme) - Rockman 8 [OST]",
+        "game": "Mega Man 8",
+        "series": "Mega Man",
+        "url": "e0e0-gs-pe8"
+    }],
+    "Mega Man 9": [{
+        "id": 178,
+        "name": "Opening",
+        "game": "Mega Man 9",
+        "series": "Mega Man",
+        "url": "tJcdVpOXjwM"
+    }, {
+        "id": 179,
+        "name": "Title Theme",
+        "game": "Mega Man 9",
+        "series": "Mega Man",
+        "url": "EazDwW8rhXY"
+    }, {
+        "id": 180,
+        "name": "Menu Theme",
+        "game": "Mega Man 9",
+        "series": "Mega Man",
+        "url": "SL7T__zF8yI"
+    }, {
+        "id": 181,
+        "name": "Stage Select",
+        "game": "Mega Man 9",
+        "series": "Mega Man",
+        "url": "_czfdhgxbEA"
+    }, {
+        "id": 182,
+        "name": "Concrete Man (Concrete Jungle)",
+        "game": "Mega Man 9",
+        "series": "Mega Man",
+        "url": "G_VIEXDZM6Y"
+    }, {
+        "id": 183,
+        "name": "Tornado Man (Thunder Tornado)",
+        "game": "Mega Man 9",
+        "series": "Mega Man",
+        "url": "BaOWZ04PrAs"
+    }, {
+        "id": 184,
+        "name": "Splash Woman (Splash Blue)",
+        "game": "Mega Man 9",
+        "series": "Mega Man",
+        "url": "H38v6Px8euk"
+    }, {
+        "id": 185,
+        "name": "Plug Man (Plug Electric)",
+        "game": "Mega Man 9",
+        "series": "Mega Man",
+        "url": "QC_b_78cLfk"
+    }, {
+        "id": 186,
+        "name": "Jewel Man (Jewel Temptation)",
+        "game": "Mega Man 9",
+        "series": "Mega Man",
+        "url": "bIuFz3b9lPc"
+    }, {
+        "id": 187,
+        "name": "Hornet Man (Hornet Dance)",
+        "game": "Mega Man 9",
+        "series": "Mega Man",
+        "url": "bI-Omk4GD8c"
+    }, {
+        "id": 188,
+        "name": "Magma Man (Magma Burning)",
+        "game": "Mega Man 9",
+        "series": "Mega Man",
+        "url": "AFc64PjQwGo"
+    }, {
+        "id": 189,
+        "name": "Galaxy Man (Galaxy Fantasy)",
+        "game": "Mega Man 9",
+        "series": "Mega Man",
+        "url": "Hw8cChTxlLk"
+    }, {
+        "id": 190,
+        "name": "Boss",
+        "game": "Mega Man 9",
+        "series": "Mega Man",
+        "url": "_luMGvRZVGI"
+    }, {
+        "id": 191,
+        "name": "Stage Clear / Get a Weapon",
+        "game": "Mega Man 9",
+        "series": "Mega Man",
+        "url": "NE9-_ehjkng"
+    }, {
+        "id": 192,
+        "name": "Shop",
+        "game": "Mega Man 9",
+        "series": "Mega Man",
+        "url": "mZ2b2hAPYJE"
+    }, {
+        "id": 193,
+        "name": "Rush Jet",
+        "game": "Mega Man 9",
+        "series": "Mega Man",
+        "url": "UA9cSDRvCks"
+    }, {
+        "id": 194,
+        "name": "Suspense",
+        "game": "Mega Man 9",
+        "series": "Mega Man",
+        "url": "pIKSsjd0FlI"
+    }, {
+        "id": 195,
+        "name": "Dr. Wily Stage 1 (Flash in the Dark)",
+        "game": "Mega Man 9",
+        "series": "Mega Man",
+        "url": "0t_GUB_aB4s"
+    }, {
+        "id": 196,
+        "name": "Dr. Wily Stage 3 (Strange World)",
+        "game": "Mega Man 9",
+        "series": "Mega Man",
+        "url": "bvVzyGE3m00"
+    }, {
+        "id": 197,
+        "name": "Dr. Wily Stage 4 (Castle of Evil)",
+        "game": "Mega Man 9",
+        "series": "Mega Man",
+        "url": "SHEgmOxJsOU"
+    }, {
+        "id": 198,
+        "name": "Wily Machine",
+        "game": "Mega Man 9",
+        "series": "Mega Man",
+        "url": "9a5z9WncNiw"
+    }, {
+        "id": 199,
+        "name": "Ending",
+        "game": "Mega Man 9",
+        "series": "Mega Man",
+        "url": "HNDCCEuLTRY"
+    }, {
+        "id": 200,
+        "name": "Staff Roll",
+        "game": "Mega Man 9",
+        "series": "Mega Man",
+        "url": "rdEKMpUZuFo"
+    }, {
+        "id": 201,
+        "name": "Special Stage (Overdrive Scramble)",
+        "game": "Mega Man 9",
+        "series": "Mega Man",
+        "url": "1EesiehmXd0"
+    }, {
+        "id": 202,
+        "name": "Endless Stage (Maze of Death)",
+        "game": "Mega Man 9",
+        "series": "Mega Man",
+        "url": "nyTA36BfvtE"
+    }],
+    "Mega Man 10": [{
+        "id": 203,
+        "name": "Opening (Usual Day)",
+        "game": "Mega Man 10",
+        "series": "Mega Man",
+        "url": "Tj8IeOzrn-Q"
+    }, {
+        "id": 204,
+        "name": "Opening (Future World)",
+        "game": "Mega Man 10",
+        "series": "Mega Man",
+        "url": "qzbnF0aKkp4"
+    }, {
+        "id": 205,
+        "name": "Opening (Suspicion)",
+        "game": "Mega Man 10",
+        "series": "Mega Man",
+        "url": "Rdz-ZKTPmOY"
+    }, {
+        "id": 206,
+        "name": "Opening (Go Together)",
+        "game": "Mega Man 10",
+        "series": "Mega Man",
+        "url": "5sXKNyhLMbE"
+    }, {
+        "id": 207,
+        "name": "Title Theme",
+        "game": "Mega Man 10",
+        "series": "Mega Man",
+        "url": "_KvBofCOjy0"
+    }, {
+        "id": 208,
+        "name": "Menu Theme",
+        "game": "Mega Man 10",
+        "series": "Mega Man",
+        "url": "v0OZdSYiPfk"
+    }, {
+        "id": 209,
+        "name": "Stage Select",
+        "game": "Mega Man 10",
+        "series": "Mega Man",
+        "url": "ewGHHsiDtjs"
+    }, {
+        "id": 210,
+        "name": "Blade Man (King of Blades)",
+        "game": "Mega Man 10",
+        "series": "Mega Man",
+        "url": "rwE7KyFcZ_Y"
+    }, {
+        "id": 211,
+        "name": "Pump Man (Polluted Pump)",
+        "game": "Mega Man 10",
+        "series": "Mega Man",
+        "url": "7iNWjEFtXv8"
+    }, {
+        "id": 212,
+        "name": "Commando Man (Desert Commando)",
+        "game": "Mega Man 10",
+        "series": "Mega Man",
+        "url": "9PGk8ASK5lM"
+    }, {
+        "id": 213,
+        "name": "Chill Man (Absolute Chill)",
+        "game": "Mega Man 10",
+        "series": "Mega Man",
+        "url": "aoleEdOSRFw"
+    }, {
+        "id": 214,
+        "name": "Sheep Man (Cybersheep's Dream)",
+        "game": "Mega Man 10",
+        "series": "Mega Man",
+        "url": "xZGZeUpSM1I"
+    }, {
+        "id": 215,
+        "name": "Strike Man (Fireball Strike)",
+        "game": "Mega Man 10",
+        "series": "Mega Man",
+        "url": "zJHsrxAv-7Q"
+    }, {
+        "id": 216,
+        "name": "Nitro Man (Nitro Rider)",
+        "game": "Mega Man 10",
+        "series": "Mega Man",
+        "url": "wsfjSBeKJRE"
+    }, {
+        "id": 217,
+        "name": "Solar Man (Solar Inferno)",
+        "game": "Mega Man 10",
+        "series": "Mega Man",
+        "url": "2JK3keY09dU"
+    }, {
+        "id": 218,
+        "name": "Boss",
+        "game": "Mega Man 10",
+        "series": "Mega Man",
+        "url": "bWpO9nyQ4iw"
+    }, {
+        "id": 219,
+        "name": "Stage Clear / Get a Weapon",
+        "game": "Mega Man 10",
+        "series": "Mega Man",
+        "url": "aqfvkhpFphs"
+    }, {
+        "id": 220,
+        "name": "Shop (Mega Man)",
+        "game": "Mega Man 10",
+        "series": "Mega Man",
+        "url": "va0XG4mX1Tc"
+    }, {
+        "id": 221,
+        "name": "Shop (Proto Man)",
+        "game": "Mega Man 10",
+        "series": "Mega Man",
+        "url": "Fz3avjPgjhs"
+    }, {
+        "id": 222,
+        "name": "Shop (Bass)",
+        "game": "Mega Man 10",
+        "series": "Mega Man",
+        "url": "U36BuxtnkbU"
+    }, {
+        "id": 223,
+        "name": "Crisis",
+        "game": "Mega Man 10",
+        "series": "Mega Man",
+        "url": "vTOXruedH5w"
+    }, {
+        "id": 224,
+        "name": "Evil Wily",
+        "game": "Mega Man 10",
+        "series": "Mega Man",
+        "url": "lFiceg2Zd0I"
+    }, {
+        "id": 225,
+        "name": "For You (Roll's Theme)",
+        "game": "Mega Man 10",
+        "series": "Mega Man",
+        "url": "J1Uhg-zv0iU"
+    }, {
+        "id": 226,
+        "name": "Dr. Wily Stage 1 (Silent Rain)",
+        "game": "Mega Man 10",
+        "series": "Mega Man",
+        "url": "RVBgSGun6lM"
+    }, {
+        "id": 227,
+        "name": "Dr. Wily Stage Boss",
+        "game": "Mega Man 10",
+        "series": "Mega Man",
+        "url": "IjzYS68bVXk"
+    }, {
+        "id": 228,
+        "name": "Dr. Wily Stage 1 (Abandoned Memory)",
+        "game": "Mega Man 10",
+        "series": "Mega Man",
+        "url": "Ltg5Kys3OUE"
+    }, {
+        "id": 229,
+        "name": "Dr. Wily Stage 2 (Against the Pressure)",
+        "game": "Mega Man 10",
+        "series": "Mega Man",
+        "url": "ZZhyAqthTpg"
+    }, {
+        "id": 230,
+        "name": "Dr. Wily Stage 3 (No Turning Back)",
+        "game": "Mega Man 10",
+        "series": "Mega Man",
+        "url": "Ip_oxOGIhAs"
+    }, {
+        "id": 231,
+        "name": "Dr. Wily Stage 4 (Stairway to Darkness)",
+        "game": "Mega Man 10",
+        "series": "Mega Man",
+        "url": "UDfr6wspbXc"
+    }, {
+        "id": 232,
+        "name": "Wily Machine",
+        "game": "Mega Man 10",
+        "series": "Mega Man",
+        "url": "cUUwM1UFULo"
+    }, {
+        "id": 233,
+        "name": "Wily Capsule",
+        "game": "Mega Man 10",
+        "series": "Mega Man",
+        "url": "yAN0pn4gTsY"
+    }, {
+        "id": 234,
+        "name": "Dr. Wily Stage 5 (Deep in Space)",
+        "game": "Mega Man 10",
+        "series": "Mega Man",
+        "url": "XLtjESENG8M"
+    }, {
+        "id": 235,
+        "name": "Staff Roll",
+        "game": "Mega Man 10",
+        "series": "Mega Man",
+        "url": "Nzr6VhFfaTA"
+    }, {
+        "id": 236,
+        "name": "Challenges",
+        "game": "Mega Man 10",
+        "series": "Mega Man",
+        "url": "LAQEFfZ-WH4"
+    }, {
+        "id": 237,
+        "name": "Endless Stage (Endless Struggle)",
+        "game": "Mega Man 10",
+        "series": "Mega Man",
+        "url": "zoyTqyEtLZg"
+    }, {
+        "id": 238,
+        "name": "Special Stage 1 (Heart of Enker)",
+        "game": "Mega Man 10",
+        "series": "Mega Man",
+        "url": "n6TE-qkgMSA"
+    }, {
+        "id": 239,
+        "name": "Special Stage 2 (Get the Punk Out)",
+        "game": "Mega Man 10",
+        "series": "Mega Man",
+        "url": "wp0niG-w27s"
+    }, {
+        "id": 240,
+        "name": "Special Stage 3 (Farewell to Ballade)",
+        "game": "Mega Man 10",
+        "series": "Mega Man",
+        "url": "_F9q6_pYBfI"
+    }]
+}

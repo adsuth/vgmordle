@@ -1,0 +1,148 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+}
+
+body {
+  height: 100vh;
+  background-color: #09070e;
+}
+
+header {
+  height: 10vh;
+}
+
+header h1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100%;
+  text-align: center;
+  font-weight: 400;
+}
+
+section {
+  height: 60vh;
+}
+
+section ul {
+  width: 50%;
+  margin: 0 auto;
+  list-style-type: none;
+}
+
+section ul li {
+  outline: 0.1rem solid rgba(80, 65, 117, 0.493);
+  padding: 0.25rem 0.5rem;
+  height: 1.75rem;
+}
+
+section ul li:not(:last-child) {
+  margin-bottom: 1rem;
+}
+
+footer {
+  height: 30vh;
+}
+
+footer div:not(last-child) {
+  margin-bottom: 1rem;
+}
+
+footer div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+footer #btn_play {
+  height: 3rem;
+  width: 3rem;
+  border-radius: 100vw;
+  background-color: #7358b87e;
+}
+
+footer #btn_play #triangle {
+  height: 50%;
+  width: 50%;
+  border-left: 1.5rem #fff solid;
+  border-top: 1rem transparent solid;
+  border-bottom: 1rem transparent solid;
+  margin: 0 auto;
+  -webkit-transform: translateX(10%) scale(0.8);
+          transform: translateX(10%) scale(0.8);
+}
+
+footer #inp_guess {
+  background-color: rgba(80, 65, 117, 0.493);
+  width: 40%;
+  border: none;
+  padding: 0.5rem 1rem;
+  color: #fff;
+  border-radius: 0.25rem;
+  text-transform: none;
+}
+
+footer #btn_skip, footer #btn_submit {
+  background: rgba(80, 65, 117, 0.493);
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+}
+
+footer #btn_submit {
+  background: #06b139;
+  margin-left: 25%;
+}
+
+button, input[type="submit"], input[type="reset"] {
+  background: none;
+  color: inherit;
+  border: none;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
+}
+
+#player {
+  display: none;
+}
+
+input:focus {
+  outline: none;
+  border: none;
+}
+
+input::-webkit-input-placeholder {
+  color: #7a6aa1;
+}
+
+input:-ms-input-placeholder {
+  color: #7a6aa1;
+}
+
+input::-ms-input-placeholder {
+  color: #7a6aa1;
+}
+
+input::placeholder {
+  color: #7a6aa1;
+}
+/*# sourceMappingURL=style.css.map */

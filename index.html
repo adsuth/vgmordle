@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+        integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <link rel="stylesheet" href="./style/style.css">
+
+    <script src="js/player.js" defer></script>
+    <script src="js/songs.js" defer></script>
+    <script src="js/main.js" defer></script>
+
+</head>
+
+<body>
+
+    <!-- top -->
+    <header>
+        <h1>GAMERDLE</h1>
+    </header>
+
+    <!-- middle -->
+    <section>
+        <ul id="ul_guessBoxes">
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+    </section>
+
+    <!-- bottom -->
+    <footer>
+        <div>
+            <button type='button' id="btn_play">
+                <div id="triangle">
+                </div>
+            </button>
+        </div>
+
+        <div>
+            <input type="text" id="inp_guess">
+        </div>
+
+        <div>
+            <button id="btn_skip">Skip</button>
+            <button id="btn_submit">Submit</button>
+        </div>
+
+
+
+    </footer>
+
+    <div id="player"></div>
+
+</body>
+
+</html>

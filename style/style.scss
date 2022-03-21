@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+
+    // outline: 1px magenta solid;
+    text-transform: uppercase;
+}
+
+body {
+    height: 100vh;
+    background-color: rgb(9, 7, 14);
+}
+
+// top
+header {
+    
+    height: 10vh;
+
+    h1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        height: 100%;
+        text-align: center;
+        font-weight: 400;
+    }
+}
+
+// middle
+section {
+    height: 60vh;
+
+    ul {
+        width: 50%;
+        margin: 0 auto;
+        list-style-type: none;
+
+        li {
+            outline: 0.1rem solid rgba(80, 65, 117, 0.493);
+            padding: 0.25rem 0.5rem;
+            height: 1.75rem;
+        }
+
+        li:not(:last-child) {
+            margin-bottom: 1rem;
+        }
+    }
+
+}
+
+// bottom
+footer {
+    height: 30vh;
+    div:not(last-child) {
+        margin-bottom: 1rem;
+    }
+    
+    div {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        
+    }
+
+    #btn_play {
+        height: 3rem;
+        width: 3rem;
+        border-radius: 100vw;
+        background-color:#7358b87e;
+
+        #triangle {
+            height: 50%;
+            width: 50%;
+            border-left: 1.5rem #fff solid;
+            border-top: 1rem transparent solid;
+            border-bottom: 1rem transparent solid;
+            margin: 0 auto;
+            transform:translateX(10%) scale(0.8);
+        }
+    }
+
+    #inp_guess {
+        background-color: rgba(80, 65, 117, 0.493);
+        width: 40%;
+        border: none;
+        padding: 0.5rem 1rem;
+        color: #fff;
+        border-radius: 0.25rem;
+        text-transform: none;
+    }
+
+    #btn_skip, #btn_submit {
+        background:rgba(80, 65, 117, 0.493);
+        padding: 0.5rem 1rem;
+        border-radius: 0.25rem;
+    }
+
+    #btn_submit {
+        background:rgb(6, 177, 57);
+        margin-left: 25%;
+    }
+    
+}
+
+button, input[type="submit"], input[type="reset"] {
+	background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+}
+
+#player {
+    display: none;
+}
+
+input:focus {
+    outline: none;
+    border:none;
+}
+input::placeholder {
+    color:rgb(122, 106, 161);
+}
