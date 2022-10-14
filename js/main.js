@@ -116,7 +116,7 @@ function addEventListeners() {
     if (ev.key === "Enter") {
       if (ev.target.value.trim().length === 0) return
       
-      if ( list.childElementCount !== 1 ) return;
+      if ( list.childElementCount > 1 ) return;
       
       if (index === maxGuesses) {
         isEndGame = true
