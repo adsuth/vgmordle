@@ -126,6 +126,9 @@ section {
             padding: 0.25rem 0.5rem;
             height: 1.75rem;
             text-shadow: 1px 1px 4px #000000;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
         }
 
         li:not(:last-child) {
@@ -197,7 +200,11 @@ footer {
         background: rgb(9, 7, 14);
         padding: 0.25rem 0.5rem;
         height: 1.75rem;
-    
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        width: 100%;
+
     }
     
     .list_item_class:hover {

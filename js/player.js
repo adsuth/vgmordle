@@ -22,8 +22,9 @@ function onYouTubeIframeAPIReady() {
 
 function onPlayerStateChange(ev) {
   if (ev.data === YT.PlayerState.PLAYING && isEndGame) {
-    fadeOut()
+    
   }
+
   if (ev.data === YT.PlayerState.PLAYING && !isEndGame) {
     pieTimer.style.animationDuration = MAX_TIMES[index] + "ms"
 
@@ -32,7 +33,7 @@ function onPlayerStateChange(ev) {
 
     playAnimation()
 
-    var timer = window.setTimeout(() => {
+    TIMER = window.setTimeout(() => {
       player.seekTo(0)
       player.stopVideo()
       window.clearTimeout(timer)

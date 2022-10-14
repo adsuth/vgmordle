@@ -5,7 +5,6 @@ Currently a work in progress - shoutouts to *sut_son* for getting the ball rolli
 Like VGMB and VGMVersus before it, VGMORDLE relies on youtube uploads for its tracks. As such, in the event that any uploads are taken down, certain tracks will break the site. Apologies for any inconvenience.
 
 ## Known Issues
-- Accented characters (eg: é) are erased alongside non-alphanumeric characters. So typing "pokemon" for example will not show expected suggestions.
 
 ## Roadmap
 ### Cursor History
@@ -16,3 +15,5 @@ Already a thing for VGMVersus; just a case of porting code.
 Making the site look more polished up.
 ### Additional Controls
 eg: A volume slider, keymapping to skip or give up, etc.
+### Add A Favicon
+A new logo preferably, no ideas as of yet

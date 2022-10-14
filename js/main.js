@@ -9,23 +9,30 @@ const pieTimer = document.getElementById("chart")
 const playTriangle = document.getElementById("triangle")
 
 const MAX_TIMES = [1500, 3000, 5000, 8000, 11000, 16000, 30000]
-const maxGuesses = 5
+const MAX_SUGGESTIONS = 5;
+const maxGuesses = 6
 
+var prevGuesses = []
 var song;
 var index = 0
 var isEndGame = false
+
+var TIMER = null
 
 function main() {
   for (let li of guessBoxes.children) {
     li.innerText = ""
     li.style.background = "inherit"
   }
-
+  
   if (!songs_random) {
     random_init()
   }
+  
+  searchBox.focus()
 
   index = 0
+  prevGuesses = []
   isEndGame = false
   searchBox.value = ""
   list.innerHTML = ""  
@@ -38,14 +45,10 @@ function main() {
 addEventListeners()
 
 function addEventListeners() {
-  playButton.addEventListener("click", ev => {
-    player.setVolume(100)
-    player.playVideo()
-    searchBox.focus()
-  })
+  playButton.addEventListener("click", playSong )
 
   nextTrackButton.addEventListener("click", ev => {
-    document.getElementById("Modal").style.display = "none";
+    document.getElementById("modal").style.display = "none";
     main()
   })
 
@@ -55,9 +58,9 @@ function addEventListeners() {
     var counter = 0
 
     for (let game of games_all) {
-      gameName = game.replace( /[^a-zA-Z0-9 -]/g, "" ).toLowerCase()
+      gameName = game.normalize("NFD").replace( /[^a-zA-Z0-9 -]/g, "" ).toLowerCase()
 
-      if (counter === 5) {
+      if (counter === MAX_SUGGESTIONS ) {
         break
       }
 
@@ -72,76 +75,69 @@ function addEventListeners() {
     }
   })
 
-  skipButton.addEventListener("click", ev => {
-    if (index === maxGuesses) {
-      isEndGame = true
-      document.getElementById("Modal").style.display = "block";
-      player.seekTo(0)
-      return
-    }
-    index++
-    fillGuessBox(id = index - 1, msg = "Skipped!!", color = "#504175", bgColor = "#00000033")
-  })
+  skipButton.addEventListener("click", skip )
 
-  submitButton.addEventListener("click", ev => {
-    if (searchBox.value.length === 0) return
-
-    if (index === maxGuesses) {
-      isEndGame = true
-      document.getElementById("Modal").style.display = "block";
-      player.seekTo(0)
-      return
-    }
-
-    index++
-
-    if (songGuess()) {
-      fillGuessBox(id = index - 1, msg = song.game + " \u2014 " + song.name, color = "#00FFAA", bgColor = "#00FFAA22")
-      searchBox.value = ""
-
-      isEndGame = true
-      showSongData()
-      player.seekTo(0)
-
-      document.getElementById("Modal").style.display = "block";
-      return
-    }
-
-    fillGuessBox(id = index - 1, searchBox.value, color = "#FF0033", bgColor = "#FF003322")
-    searchBox.value = ""
-    searchBox.focus()
-  })
+  submitButton.addEventListener("click", submitAnswer )
 
   document.addEventListener("keydown", function (ev) {
     if (ev.key === "Enter") {
-      if (ev.target.value.trim().length === 0) return
+      if ( isEndGame )
+      {
+        document.getElementById("modal").style.display = "none";
+        main()
+        return
+      }
+
+      if (ev.target.value.trim().length === 0) return;
+
+      if ( prevGuesses.includes( ev.target.value.trim() ) )
+      {
+        searchBox.value = ""
+        list.innerHTML = ""
+        return
+      }
       
       if ( list.childElementCount > 1 ) return;
       
+      index++
       if (index === maxGuesses) {
         isEndGame = true
-        document.getElementById("Modal").style.display = "block";
+        document.getElementById("modal").style.display = "block";
         player.seekTo(0)
         return
       }
       
-      index++
-
-      if ( songGuess() ) {
-        fillGuessBox(id = index - 1, msg = song.game + " \u2014 " + song.name, color = "#00FFAA", bgColor = "#00FFAA22")
-        searchBox.value = ""
-
-        isEndGame = true
-        showSongData()
-        player.seekTo(0)
-
-        document.getElementById("Modal").style.display = "block";
-        return
+      if ( list.childElementCount === 1 ) 
+      {
+        searchBox.value = list.firstChild.innerText;
       }
 
+      if ( songGuess() ) {
+        fillGuessBox(id = index - 1, msg = searchBox.value, color = "#00FFAA", bgColor = "#00FFAA22")
+
+        isEndGame = true
+        playSong()
+        showSongData()
+
+        document.getElementById("modal").style.display = "block";
+        return
+      }
+      
       fillGuessBox(id = index - 1, msg = searchBox.value, color = "#FF0033", bgColor = "#FF003322")
+      prevGuesses.push( ev.target.value.trim() )
       searchBox.value = ""
+      list.innerHTML = ""
     }
+
+    if ( ev.key === " " && ev.ctrlKey )
+    {
+      playSong()
+    }
+    if ( ev.key === "ArrowRight" && ev.ctrlKey )
+    {
+      skip()
+    }
+
   })
 }
 
@@ -174,6 +170,9 @@ function makeListItem(content) {
 
     list.innerHTML = ""
     list.style.display = "none"
+
+    if ( ev.ctrlKey )
+      submitAnswer( ev )
   })
   return li
 }
@@ -200,4 +199,67 @@ function playAnimation() {
   chart.classList.remove("chartAnimation")
   chart.offsetWidth = chart.offsetWidth
   chart.classList.add("chartAnimation")
+}
+
+function submitAnswer( ev )
+{
+  if (searchBox.value.length === 0) return
+
+  if ( songGuess() ) {
+    if ( YT.PlayerState.PLAYING )
+    {
+      window.clearTimeout(TIMER)
+    }
+    
+    playSong()
+
+    fillGuessBox(id = index, msg = searchBox.value, color = "#00FFAA", bgColor = "#00FFAA22")
+    searchBox.value = ""
+
+    isEndGame = true
+    showSongData()
+
+    document.getElementById("modal").style.display = "block";
+    return
+  }
+
+  if (index === maxGuesses) {
+    isEndGame = true
+    document.getElementById("modal").style.display = "block";
+    return
+  }
+  
+  index++
+  fillGuessBox(id = index - 1, searchBox.value, color = "#FF0033", bgColor = "#FF003322")
+  
+  searchBox.value = ""
+  searchBox.focus()
+}
+
+function playSong( ev )
+{
+  if ( !isEndGame )
+  {
+    player.seekTo(0)
+  }
+
+  if ( YT.PlayerState.PLAYING )
+  {
+    window.clearTimeout( TIMER )
+  }
+  player.setVolume(100)
+  player.playVideo()
+  searchBox.focus()
+}
+
+function skip( ev ) {
+  fillGuessBox(id = index, msg = "Skipped!!", color = "#504175", bgColor = "#00000033")
+  index++
+  if (index === maxGuesses) {
+    isEndGame = true
+    document.getElementById("modal").style.display = "block";
+    player.setVolume(100)
+    player.seekTo(0)
+    return
+  }
 }
