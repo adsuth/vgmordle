@@ -7,7 +7,88 @@
     font-family: 'Montserrat', sans-serif;
 
     // outline: 1px magenta solid;
-    text-transform: uppercase;
+    // text-transform: uppercase;
+}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 50px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    // overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgb(9, 7, 14);
+}
+
+/* Modal Content */
+.modal-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    #player {
+        display: none;
+        margin: 0 auto;
+        border: rgba(80, 65, 117, 0.493) solid 0.2rem;
+    }
+
+    #player_container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 1rem;
+        // padding-bottom: 1rem;
+    }
+    
+    #game_title {
+        text-transform: uppercase;
+        text-align: center;
+        font-weight: 1000;
+        font-size: 2.5vw;
+        color:rgb(191, 179, 219);
+        text-shadow: 1px 1px 4px #000000;
+        visibility: visible;
+        opacity: 1;
+        transition: opacity 5s linear;
+    }
+
+    #song_title {
+        text-transform: uppercase;
+        text-align: center;
+        font-size:1.5vw;
+        color:rgb(121, 110, 150);
+        text-shadow: 1px 1px 4px #000000;
+    }
+
+    #button_next {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 2.5rem;
+        // padding-bottom: 1rem;
+    }
+
+    #btn_next {
+        background:rgba(191, 83, 233, 0.32);
+        text-shadow: 0px 0px 3px #000000;
+        font-weight: 650;
+        text-transform: uppercase;
+        padding: 0.5rem 1rem;
+        border-radius: 0.2rem;
+        outline: rgba(255, 255, 255, 0.498) solid 0.2rem;
+    }
+
+    background-color: none;
+    margin: auto;
+    padding: 20px;
+    width: 90%;
+    height: 90%;
+    color: rgb(0, 0, 0);
 }
 
 body {
@@ -41,9 +122,10 @@ section {
         list-style-type: none;
 
         li {
-            outline: 0.1rem solid rgba(80, 65, 117, 0.493);
+            outline: 0.15rem solid rgba(80, 65, 117, 0.493);
             padding: 0.25rem 0.5rem;
             height: 1.75rem;
+            text-shadow: 1px 1px 4px #000000;
         }
 
         li:not(:last-child) {
@@ -56,16 +138,25 @@ section {
 // bottom
 footer {
     height: 30vh;
-    div:not(last-child) {
-        margin-bottom: 1rem;
-    }
+    width: 45vw;
+    margin: 0 auto;
     
     div {
         display: flex;
         align-items: center;
         justify-content: center;
+    }
 
-        
+    .button_grid {
+        display: grid;
+        grid-template-columns: 1fr 4.5fr 1fr;
+    }
+
+    .play_button_container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 0;
     }
 
     #btn_play {
@@ -73,6 +164,7 @@ footer {
         width: 3rem;
         border-radius: 100vw;
         background-color:#7358b87e;
+        outline: 0.1rem solid rgb(255, 255, 255);
 
         #triangle {
             height: 50%;
@@ -87,25 +179,64 @@ footer {
 
     #inp_guess {
         background-color: rgba(80, 65, 117, 0.493);
-        width: 40%;
-        border: none;
+        width: 100%;
+        border: 1px rgb(105, 87, 150) solid;
         padding: 0.5rem 1rem;
         color: #fff;
-        border-radius: 0.25rem;
         text-transform: none;
+        margin-bottom: 1.25rem;
+    }
+
+    .list_item_class {
+        border-bottom: 0.02rem solid rgb(80, 65, 117);
+        color:#ad94ecdc;
+        background-color: #fff;
+        font-family: "Renogare", sans-serif;
+        padding: 0.5rem 1rem;
+        cursor: pointer;
+        background: rgb(9, 7, 14);
+        padding: 0.25rem 0.5rem;
+        height: 1.75rem;
+    
+    }
+    
+    .list_item_class:hover {
+        background-color: rgba(80, 65, 117, 0.493);
+        color: #fff;
+    }
+    
+    ul {
+        display: none;
+        border-radius: 0.25rem 0.25rem 0 0;
+        list-style-type: none;
+        width: 45%;
+        position: absolute;
+        transform: translateY(-50%);
+        margin-bottom: 3.3rem;
+        //outline: 0.02rem solid rgb(80, 65, 117);
+        border: 1px rgb(105, 87, 150) solid;
     }
 
     #btn_skip, #btn_submit {
-        background:rgba(80, 65, 117, 0.493);
+        background:rgba(0, 0, 0, 0.144);
         padding: 0.5rem 1rem;
-        border-radius: 0.25rem;
+        border-radius: 0.2rem;
+        text-shadow: 1px 1px 4px #000000;
+        font-weight: 650;
+        text-transform: uppercase;
+        outline: 0.02rem solid rgba(255, 255, 255, 0.479);
     }
 
     #btn_submit {
-        background:rgb(6, 177, 57);
-        margin-left: 25%;
+        background:rgba(2, 238, 13, 0.253);
+        text-shadow: 1px 1px 4px #000000;
+        font-weight: 650;
+        text-transform: uppercase;  
     }
-    
+
+    #btn_play:active,#btn_submit:active,#btn_skip:active{
+        transform: scale(0.95);
+    }
 }
 
 button, input[type="submit"], input[type="reset"] {
@@ -118,14 +249,282 @@ button, input[type="submit"], input[type="reset"] {
 	outline: inherit;
 }
 
-#player {
-    display: none;
-}
-
 input:focus {
     outline: none;
     border:none;
 }
 input::placeholder {
     color:rgb(122, 106, 161);
+}
+
+hr {
+    border: rgba(121, 106, 161, 0.938) .05px solid;
+    border-bottom: none;
+    width:75%;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+}
+
+.modal_hr {
+    width:90%;
+    margin-top: 2rem;    
+    margin-bottom: 0;
+}
+
+@property --percentage {
+    initial-value: 0%;
+    inherits: false;
+    syntax: "<percentage>";
+}
+
+.chartAnimation {
+    background: conic-gradient(
+        #ffffff var(--percentage), transparent 0
+    );
+    border-radius: 50%;
+    animation-name: timer;            
+    // animation-duration: 1s;           /* set in js for each skip */
+    animation-timing-function: linear;            
+    animation-fill-mode: forwards;
+}
+
+#chart {
+    display: none;
+    width: 100%;
+    height: 100%;
+}
+  
+@keyframes timer {
+    to {
+        --percentage: 100%;
+    }
+}
+
+$particles: 50;
+$width: 500;
+$height: 500;
+
+// Create the explosion...
+$box-shadow: ();
+$box-shadow2: ();
+@for $i from 0 through $particles {
+    $box-shadow: $box-shadow,
+                random($width)-$width / 2 + px
+                random($height)-$height / 1.2 + px
+                hsl(random(360), 100, 50);
+    $box-shadow2: $box-shadow2, 0 0 #fff
+}
+@mixin keyframes ($animationName) {
+    @-webkit-keyframes #{$animationName} {
+        @content;
+    }
+
+    @-moz-keyframes #{$animationName} {
+        @content;
+    }
+
+    @-o-keyframes #{$animationName} {
+        @content;
+    }
+
+    @-ms-keyframes #{$animationName} {
+        @content;
+    }
+
+    @keyframes #{$animationName} {
+        @content;
+    }
+}
+
+@mixin animation-delay ($settings) {
+    -moz-animation-delay: $settings;
+    -webkit-animation-delay: $settings;
+    -o-animation-delay: $settings;
+    -ms-animation-delay: $settings;
+    animation-delay: $settings;
+}
+
+@mixin animation-duration ($settings) {
+    -moz-animation-duration: $settings;
+    -webkit-animation-duration: $settings;
+    -o-animation-duration: $settings;
+    -ms-animation-duration: $settings;
+    animation-duration: $settings;
+}
+
+@mixin animation ($settings) {
+    -moz-animation: $settings;
+    -webkit-animation: $settings;
+    -o-animation: $settings;
+    -ms-animation: $settings;
+    animation: $settings;
+}
+
+@mixin transform ($settings) {
+    transform: $settings;
+    -moz-transform: $settings;
+    -webkit-transform: $settings;
+    -o-transform: $settings;
+    -ms-transform: $settings;
+}
+
+body {
+    margin:0;
+    padding:0;
+    background: #000;
+    overflow: hidden;
+}
+
+.pyro > .before, .pyro > .after {
+    position: absolute;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    box-shadow: $box-shadow2;
+    @include animation((1s bang ease-out infinite backwards, 1s gravity ease-in infinite backwards, 5s position linear infinite backwards));
+}
+        
+.pyro > .after {
+    @include animation-delay((1.25s, 1.25s, 1.25s));
+    @include animation-duration((1.25s, 1.25s, 6.25s));
+}
+            
+@include keyframes(bang) {
+    to {
+        box-shadow:$box-shadow;
+    }
+}
+        
+@include keyframes(gravity)  {
+    to {
+        @include transform(translateY(200px));
+        opacity: 0;
+    }
+}
+        
+@include keyframes(position) {
+    0%, 19.9% {
+        margin-top: 10%;
+        margin-left: 40%;
+    }
+    20%, 39.9% {
+        margin-top: 40%;
+        margin-left: 30%;
+    }
+    40%, 59.9% {  
+        margin-top: 20%;
+        margin-left: 70%
+    }
+    60%, 79.9% {  
+        margin-top: 30%;
+        margin-left: 20%;
+    }
+    80%, 99.9% {  
+        margin-top: 30%;
+        margin-left: 80%;
+    }
+}
+
+.fadeIn {
+    animation: fadeIn ease 1.5s;
+    -webkit-animation: fadeIn ease 1.5s;
+    -moz-animation: fadeIn ease 1.5s;
+    -o-animation: fadeIn ease 1.5s;
+    -ms-animation: fadeIn ease 1.5s;
+}
+@keyframes fadeIn {
+0% {
+    opacity:0;
+}
+100% {
+    opacity:1;
+}
+}
+
+@-moz-keyframes fadeIn {
+0% {
+    opacity:0;
+}
+100% {
+    opacity:1;
+}
+}
+
+@-webkit-keyframes fadeIn {
+0% {
+    opacity:0;
+}
+100% {
+    opacity:1;
+}
+}
+
+@-o-keyframes fadeIn {
+0% {
+    opacity:0;
+}
+100% {
+    opacity:1;
+}
+}
+
+@-ms-keyframes fadeIn {
+0% {
+    opacity:0;
+}
+100% {
+    opacity:1;
+}
+}
+
+.fadeOut {
+    animation: fadeOut ease 8s;
+    -webkit-animation: fadeOut ease 8s;
+    -moz-animation: fadeOut ease 8s;
+    -o-animation: fadeOut ease 8s;
+    -ms-animation: fadeOut ease 8s;
+}
+@keyframes fadeOut {
+0% {
+    opacity:1;
+}
+100% {
+    opacity:0;
+}
+}
+
+@-moz-keyframes fadeOut {
+0% {
+    opacity:1;
+}
+100% {
+    opacity:0;
+}
+}
+
+@-webkit-keyframes fadeOut {
+0% {
+    opacity:1;
+}
+100% {
+    opacity:0;
+}
+}
+
+@-o-keyframes fadeOut {
+0% {
+    opacity:1;
+}
+100% {
+    opacity:0;
+}
+}
+
+@-ms-keyframes fadeOut {
+0% {
+    opacity:1;
+}
+100% {
+    opacity:0;
+}
 }

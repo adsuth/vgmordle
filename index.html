@@ -26,13 +26,39 @@
 
 <body>
 
+    <div id="Modal" class="modal fadeIn">
+        <!-- <div class="pyro">
+            <div class="before"></div>
+            <div class="after"></div>
+        </div> -->
+        <!-- Modal content -->
+        <div class="modal-content">
+            <div>
+                <!-- <img id="thumbnail" src=https://img.youtube.com/vi/eqHhNOdAvs0/maxresdefault.jpg width="750"> -->
+                <div id="player_container">
+                    <div id="player"></div>
+                </div>
+                
+                <p id="game_title"></p>
+                <p id="song_title"></p>
+                <hr class="modal_hr">
+                <div id="button_next">
+                    <button id="btn_next">Next Track</button>
+                </div>
+                
+
+            </div>
+        </div>  
+    </div>
+
     <!-- top -->
     <header>
-        <h1>GAMERDLE</h1>
+        <h1>VGMORDLE</h1>
     </header>
 
     <!-- middle -->
     <section>
+        <hr>
         <ul id="ul_guessBoxes">
             <li></li>
             <li></li>
@@ -45,23 +71,24 @@
 
     <!-- bottom -->
     <footer>
-        <div>
-            <button type='button' id="btn_play">
-                <div id="triangle">
-                </div>
-            </button>
-        </div>
 
         <div>
+            <ul id="list"></ul>
             <input type="text" id="inp_guess">
         </div>
 
-        <div>
+        <div class="button_grid">
             <button id="btn_skip">Skip</button>
+            
+            <div class="play_button_container">
+                <button type='button' id="btn_play">
+                    <div id="triangle"></div>
+                    <div id="chart" class="chartAnimation"></div>
+                </button>
+            </div>
+            
             <button id="btn_submit">Submit</button>
         </div>
-
-
 
     </footer>
 
