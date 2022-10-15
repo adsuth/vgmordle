@@ -1,24 +1,3 @@
-const list = document.getElementById("list")
-const searchBox = document.getElementById("inp_guess")
-const playButton = document.getElementById("btn_play")
-const nextTrackButton = document.getElementById("btn_next")
-const skipButton = document.getElementById("btn_skip")
-const submitButton = document.getElementById("btn_submit")
-const guessBoxes = document.getElementById("ul_guessBoxes")
-const pieTimer = document.getElementById("chart")
-const playTriangle = document.getElementById("triangle")
-
-const MAX_TIMES = [1500, 3000, 5000, 8000, 11000, 16000, 30000]
-const MAX_SUGGESTIONS = 5;
-const maxGuesses = 6
-
-var prevGuesses = []
-var song;
-var index = 0
-var isEndGame = false
-
-var TIMER = null
-
 function main() {
   for (let li of guessBoxes.children) {
     li.innerText = ""
@@ -47,10 +26,7 @@ addEventListeners()
 function addEventListeners() {
   playButton.addEventListener("click", playSong )
 
-  nextTrackButton.addEventListener("click", ev => {
-    document.getElementById("modal").style.display = "none";
-    main()
-  })
+  nextTrackButton.addEventListener("click", nextTrack )
 
   searchBox.addEventListener("input", function (ev) {
     list.style.display = "block"
@@ -82,51 +58,9 @@ function addEventListeners() {
   document.addEventListener("keydown", function (ev) {
     if (ev.key === "Enter") {
       if ( isEndGame )
-      {
-        document.getElementById("modal").style.display = "none";
-        main()
-        return
-      }
-
-      if (ev.target.value.trim().length === 0) return;
-
-      if ( prevGuesses.includes( ev.target.value.trim() ) )
-      {
-        searchBox.value = ""
-        list.innerHTML = ""
-        return
-      }
-      
-      if ( list.childElementCount > 1 ) return;
-      
-      index++
-      if (index === maxGuesses) {
-        isEndGame = true
-        document.getElementById("modal").style.display = "block";
-        player.seekTo(0)
-        return
-      }
-      
-      if ( list.childElementCount === 1 ) 
-      {
-        searchBox.value = list.firstChild.innerText;
-      }
-
-      if ( songGuess() ) {
-        fillGuessBox(id = index - 1, msg = searchBox.value, color = "#00FFAA", bgColor = "#00FFAA22")
-
-        isEndGame = true
-        playSong()
-        showSongData()
-
-        document.getElementById("modal").style.display = "block";
-        return
-      }
-      
-      fillGuessBox(id = index - 1, msg = searchBox.value, color = "#FF0033", bgColor = "#FF003322")
-      prevGuesses.push( ev.target.value.trim() )
-      searchBox.value = ""
-      list.innerHTML = ""
+        nextTrack( ev )
+      else
+        submitAnswer( ev )
     }
 
     if ( ev.key === " " && ev.ctrlKey )
@@ -136,6 +70,11 @@ function addEventListeners() {
     if ( ev.key === "ArrowRight" && ev.ctrlKey )
     {
       skip()
+    }
+
+    if ( ev.key === "Escape" )
+    {
+      nextTrack( ev )
     }
 
   })
@@ -205,15 +144,20 @@ function submitAnswer( ev )
 {
   if (searchBox.value.length === 0) return
 
+  if ( list.childElementCount > 0 )
+  {
+    searchBox.value = list.firstChild.innerText;
+  }
+
   if ( songGuess() ) {
-    if ( YT.PlayerState.PLAYING )
+    if ( player.getPlayerState() === YT.PlayerState.PLAYING )
     {
       window.clearTimeout(TIMER)
     }
     
     playSong()
 
-    fillGuessBox(id = index, msg = searchBox.value, color = "#00FFAA", bgColor = "#00FFAA22")
+    fillGuessBox(id = index, msg = searchBox.value, color = COLORS.correct.fore, bgColor = COLORS.correct.back)
     searchBox.value = ""
 
     isEndGame = true
@@ -230,7 +174,7 @@ function submitAnswer( ev )
   }
   
   index++
-  fillGuessBox(id = index - 1, searchBox.value, color = "#FF0033", bgColor = "#FF003322")
+  fillGuessBox(id = index - 1, searchBox.value, color = COLORS.wrong.fore, bgColor = COLORS.wrong.back)
   
   searchBox.value = ""
   searchBox.focus()
@@ -243,7 +187,7 @@ function playSong( ev )
     player.seekTo(0)
   }
 
-  if ( YT.PlayerState.PLAYING )
+  if ( player.getPlayerState() === YT.PlayerState.PLAYING )
   {
     window.clearTimeout( TIMER )
   }
@@ -253,7 +197,7 @@ function playSong( ev )
 }
 
 function skip( ev ) {
-  fillGuessBox(id = index, msg = "Skipped!!", color = "#504175", bgColor = "#00000033")
+  fillGuessBox(id = index, msg = "Skipped!!", color = COLORS.default.fore, bgColor = COLORS.default.back)
   index++
   if (index === maxGuesses) {
     isEndGame = true
@@ -263,3 +207,9 @@ function skip( ev ) {
     return
   }
 }
+
+function nextTrack( ev )
+{
+  document.getElementById("modal").style.display = "none";
+  main()
+} 
